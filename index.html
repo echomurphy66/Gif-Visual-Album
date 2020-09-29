@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&display=swap" rel="stylesheet">
+  <title>BitClipsDotArt</title>
+</head>
+
+  <body>
+    <header class="headerNav">
+      <ul class="navElements">
+        <li class="aboutLink"><a href="https://invis.io/6ES6NFVHZUM#/365158555_Untitled_Artwork_55">ABOUT</a></li>
+        <li class="webPageTitle">BIT.CLIPS.ART</li>
+        <li class="clipLink"><a href="https://soundcloud.com/0xredf/sets/a-tale-of-two-synthies">0xredf</a></li>
+      </ul>  
+    </header>
+    
+    <main>
+      <div class="bitPlayer">
+          <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561760587/player_Horres_v2_lwwwwf.png" class="image-1">
+      </div>
+    </main>
+    
+    <section class="allClips">
+     
+      <div class="clips1"onclick="play1()">
+        <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561762238/Clip1_attackOfTheManiac_nvhxbl.png" class="smallGif-1">
+           <article class="songMetadata-clips1">
+             <div class="songMetaData1-clips2">Attack of the Maniac</div>
+             <div class="songMetaData2-clips1">0xredf</div> 
+           </article>
+      </div>
+      
+      <div class="clips2" onclick="play2()">
+        <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561762469/Clip2_doubleAdvance_ag2sii.png" class="smallGif-2">
+          <article class="songMetadata-clips2">
+             <div class="songMetaData1-clips2">Double Advance</div>
+             <div class="songMetaData2-clips1">0xredf</div> 
+           </article>
+      </div> 
+      
+      <div class="clips3" onclick="play3()">
+        <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561762553/Clip3_velvetRed_qufutf.png" class="smallGif-3">        
+          <article class="songMetadata-clips3">
+             <div class="songMetaData1-clips2">Velvet Red</div>
+             <div class="songMetaData2-clips1">0xredf</div>
+          </article>
+      </div>
+      
+      <div class="clips4" onclick="play4()">
+        <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561762238/Clip4_sele_bxbknt.png" class="smallGif-4">  
+          <article class="songMetadata-clips4">
+             <div class="songMetaData1-clips2">Sele</div>
+             <div class="songMetaData2-clips1">0xredf</div>
+          </article>        
+      </div>
+      
+      <div class="clips5" onclick="play5()">
+        <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561762238/Clip5_belleTheaterCrawl_kd6hoq.png" class="smallGif-5">  
+          <article class="songMetadata-clips5">
+             <div class="songMetaData1-clips2">Belle Theater Crawl</div>
+             <div class="songMetaData2-clips1">0xredf</div>
+          </article>        
+      </div>
+    
+      <div class="clips6" onclick="play6()">
+        <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561762238/Clip6_floe_Me_hej1yp.png" class="smallGif-6">  
+          <article class="songMetadata-clips6">
+             <div class="songMetaData1-clips2">Floe & Me</div>
+             <div class="songMetaData2-clips1">0xredf</div>
+          </article>        
+      </div>    
+    
+    </section>
+   
+    
+<!--     +++++++++++ AUDIO +++++++++++-->
+    
+      <audio id="attackOfTheManiac" src="https://res.cloudinary.com/dx5uqzten/video/upload/v1561892110/Horres/Attack_of_the_Maniac_z0b49d.mp3"></audio>
+
+      <audio id="doubleAdvance" src="https://res.cloudinary.com/dx5uqzten/video/upload/v1561892111/Horres/Double_Advance_mybr8w.mp3"></audio>
+    
+      <audio id="velvetRed" src="https://res.cloudinary.com/dx5uqzten/video/upload/v1561892111/Horres/Velvet_Red_ozbvky.mp3"></audio>
+      
+      <audio id="sele" src="https://res.cloudinary.com/dx5uqzten/video/upload/v1561892111/Horres/Sele_gzjta7.mp3"></audio>
+          
+      <audio id="belleTheaterCrawl" src="https://res.cloudinary.com/dx5uqzten/video/upload/v1561892110/Horres/Belle_Theater_Crawl_ia4wrf.mp3"></audio>
+          
+      <audio id="floeMe" src="https://res.cloudinary.com/dx5uqzten/video/upload/v1561892111/Horres/Floe_Me_jl8mt6.mp3"></audio> 
+    
+<!--     +++++++++++++++++++++++++++++-->
+    
+<!--     +++++++++++ ESCAPE +++++++++++-->    
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1560707965/Escape2_x83b7r.png" id="escape" onclick="pause()">
+    
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1560707965/Escape2_x83b7r.png" id="escape" onclick="pause2()">
+    
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1560707965/Escape2_x83b7r.png" id="escape" onclick="pause3()">
+    
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1560707965/Escape2_x83b7r.png" id="escape" onclick="pause4()">
+    
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1560707965/Escape2_x83b7r.png" id="escape" onclick="pause5()">
+    
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1560707965/Escape2_x83b7r.png" id="escape" onclick="pause6()">
+    
+<!--     +++++++++++++++++++++++++++++-->   
+    
+<!--     +++++++++++ OVERLAYS +++++++++++-->      
+    
+    <aside class="gif-1">
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561892126/Horres/01_AttackofTheManiac_ijckw6.gif" id="largeGif-1"> 
+    </aside>
+    
+    
+    <aside class="gif-2">
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561892126/Horres/02_DoubleAdvance_hy08ne.gif" id="largeGif-2"> 
+    </aside>
+     
+    
+    <aside class="gif-3">
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561892126/Horres/03_VelvetRed_n1tfcg.gif" id="largeGif-3">  
+    </aside>  
+    
+    
+    <aside class="gif-4">
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561892126/Horres/04_Sele_hgi9tm.gif" id="largeGif-4">  
+    </aside>
+    
+    <aside class="gif-5">
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561892126/Horres/05_BelleTheater_rgdy1o.gif" id="largeGif-5">  
+    </aside>
+
+    <aside class="gif-6">
+      <img src="https://res.cloudinary.com/dx5uqzten/image/upload/v1561892126/Horres/06_Floe_Me_duofrt.gif" id="largeGif-6">  
+    </aside>    
+    
+<!--     ++++++++++++++++++++++++++++++++-->       
+
+    
+   
+    
+    
+    
+  </body>
