@@ -1,0 +1,325 @@
+body {
+    max-width: 575px;
+    margin: auto;
+    height: 100px;
+  /*   background-color: blue;  */
+    background-color: #FF5D46; 
+  }
+  
+  a{
+   text-decoration: none;
+   color: white;
+   font-weight: 700px; 
+  }
+  
+  main{
+    width: 600px; 
+  }
+  
+  
+  /* Head Navigation */
+  
+  .headerNav {
+    padding-top: 20px; 
+    background-color: #FF5D46;
+  }
+  
+  .navElements {
+    display: flex;
+    list-style-type: none; 
+    height: 50px;
+    padding-left: 20px;  
+    width: 100%; 
+  }
+  
+  .navElements li {
+    padding-left: 15px; 
+    padding-right: 15px; 
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .webPageTitle {
+    font-weight: 700;
+    font-size: 40px; 
+    position: relative; 
+    left: 0px; 
+    top: -19px;
+    color: #FF5D46; 
+    -webkit-text-stroke: 1.4px blue;
+  }
+  
+  .aboutLink {
+    font-weight: 700; 
+  }
+  
+  .aboutLink:hover{
+    font-weight: 300;
+  }
+  
+  .clipLink {
+    font-weight: 700;  
+  }
+  
+  .clipLink:hover{
+    font-weight: 300;  
+  }
+  
+  
+  
+  
+  /* Player */
+  
+  .bitPlayer {
+    height: 420px;  
+  /*   background-color: salmon;  */
+  }
+  
+  .image-1 {
+    width: 400px;
+    height: 400px; 
+    position: relative; 
+    left: 70px; 
+    top: 20px;  
+  }
+  
+  
+  
+  /* Clips */
+  .allClips {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px; 
+    padding-left: 0px; 
+    padding-right: 10px; 
+    position: relative; 
+    left: -40px; 
+    
+  }
+  
+  .clips1,.clips2,.clips3,.clips4,.clips5,.clips6 { 
+  /*   background-color: white; */
+    height: 140px;
+    width: 140px;
+  /*   position: relative; 
+    left: 140px; 
+    top: -120px;  */
+  }
+  
+  .clipMetadata{
+    display: flex; 
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  
+  .songMetadata-clips1, .songMetadata-clips2, .songMetadata-clips3, .songMetadata-clips4,.songMetadata-clips5, .songMetadata-clips6 {
+  /*   background-color: blue;  */
+    font-family: 'Roboto Mono', monospace;
+    display: flex; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  
+  .songMetaData1-clips2 {
+    text-align: center; 
+    font-size: 11px;
+  }
+  
+  .songMetaData2-clips1 {
+    font-size: 13px;
+    opacity: .5; 
+  }
+  
+  
+  
+  /* Animation for hover */
+  .clips1,.clips2,.clips3,.clips4,.clips5,.clips6 {
+    transition: all 0.3s ease-in-out;
+    margin-top: 30px; 
+  }
+  
+  .clips1::after {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;  
+  }
+  
+  .clips2::after {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;  
+  }
+  
+  .clips3::after {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;  
+  }
+  
+  .clips4::after {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;  
+  }
+  
+  .clips5::after {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;  
+  }
+  
+  .clips6::after {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;  
+  }
+  
+  .clips1:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  .clips2:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  .clips3:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  .clips4:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  .clips5:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  .clips6:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  .clips1:hover::after {
+    opacity: .5;
+  }
+  
+  .clips2:hover::after {
+    opacity: .5;
+  }
+  
+  .clips3:hover::after {
+    opacity: .5;
+  }
+  
+  .clips4:hover::after {
+    opacity: .5;
+  }
+  
+  .clips5:hover::after {
+    opacity: .5;
+  }
+  
+  .clips6:hover::after {
+    opacity: .5;
+  }
+  
+  
+  /* Gif Overlays */
+  
+  #largeGif-1 { 
+    display: none; 
+    position: relative; 
+    width: 850px; 
+    height: 850px; 
+    top: -730px; 
+    right: 100px;  
+  }
+  
+  #largeGif-2 {
+    display: none; 
+    position: relative; 
+    width: 850px; 
+    height: 850px; 
+    top: -730px; 
+    right: 100px;    
+  }
+  
+  #largeGif-3 {
+    display: none; 
+    position: relative; 
+    width: 850px; 
+    height: 850px; 
+    top: -730px; 
+    right: 100px; 
+  }
+  
+  #largeGif-4 {
+    display: none; 
+    position: relative; 
+    width: 850px; 
+    height: 850px; 
+    top: -730px; 
+    right: 100px;  
+  }
+  
+  #largeGif-5 {
+    display: none; 
+    position: relative; 
+    width: 850px; 
+    height: 850px; 
+    top: -730px; 
+    right: 100px; 
+  }
+  
+  #largeGif-6 {
+    display: none; 
+    position: relative; 
+    width: 850px; 
+    height: 850px; 
+    top: -730px; 
+    right: 100px; 
+  }
+  
+  
+  /* Escape Button */
+  
+    #escape {
+    display: none;
+    position: relative; 
+    left: 1000px;
+    top: -620px; 
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+  }
+  
+  
+  /* Small Hit Clips */
+  
+  .smallGif-6,.smallGif-5,.smallGif-4,.smallGif-3, .smallGif-2, .smallGif-1  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    width: 110px;
+    position: relative; 
+    top:10px; 
+  }
+  
+  
+  
